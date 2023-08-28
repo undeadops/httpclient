@@ -17,9 +17,9 @@ import (
 
 var (
 	//proxyUrl = "http://127.0.0.1:8888"
-	proxyUrl = "http://proxify-35e42376ceac5218.elb.us-east-1.amazonaws.com:8888"
+	proxyUrl = "http://proxify:8888"
 	brewsUrl = "https://api.openbrewerydb.org/breweries"
-	mtlsUrl  = "https://trashcan.use2.atmcdev.com/hello"
+	mtlsUrl  = "https://trashcan.undeadops.xyz/hello"
 
 	getCA       bool
 	useProxy    bool
